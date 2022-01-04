@@ -1,0 +1,10 @@
+applications:
+# Product List application
+  - name: product-list
+    instances: 1
+    memory: 128M
+    routes:
+      - route: product-list-vi21.cfapps.us10.hana.ondemand.com
+    path: app
+    buildpacks:
+      - nodejs_buildpack

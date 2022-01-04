@@ -1,0 +1,23 @@
+{
+	"Notebook Basic 15" : {
+		"name": "Notebook Basic 15",
+	 	"description": "Notebook Basic 15 with 2,3GHz - 15\" - 4 GB DDR3 RAM - 1TB HD",
+		"price": 956.00,
+		"currencyCode": "EUR",
+		"pictureUrl": "images/HT-1000.jpg"
+	},
+	"Notebook Professional 14" : {
+		"name": "Notebook Professional 14",
+	 	"description": "Notebook Professional 14 with 3,2GHz - 14\" - 16GB DDR3 RAM - 1TB SSD HD",
+		"price": 1999.00,
+		"currencyCode": "EUR",
+		"pictureUrl": "images/HT-1010.jpg"
+	},
+	"Ergo Screen" : {
+		"name": "Ergo Screen",
+	 	"description": "24\" Resolution 2560 x 1440, DVI-D, HDMI",
+		"price": 230.00,
+		"currencyCode": "EUR",
+		"pictureUrl": "images/HT-1030.jpg"
+	}
+}
