@@ -20,7 +20,7 @@
             var oListModel = new sap.ui.model.json.JSONModel();
             sap.ui.getCore().setModel(oListModel);
             // TODO read window.location.href
-            var productsUrl = "/products";
+            var productsUrl = "/products/products";
             if (document.defaultView.location.origin.includes("localhost")) {
                 productsUrl = "/products";
             }

@@ -1,0 +1,29 @@
+{
+	"xsappname": "product-list",
+	"tenant-mode": "dedicated",
+	"scopes": [
+		{
+			"name": "$XSAPPNAME.read",
+			"description": "With this scope, USER can read products."
+		}
+	],
+
+	"role-templates": [
+		{
+			"name": "Viewer",
+			"description": "Role to get the list of products",
+			"scope-references": [
+				"$XSAPPNAME.read"
+			]
+		}
+	],
+	"role-collections": [
+		{
+			"name": "ProductListViewer",
+			"description": "Product List Viewer",
+			"role-template-references": [
+				"$XSAPPNAME.Viewer"
+			]
+		}
+	]
+}
